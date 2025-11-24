@@ -25,9 +25,10 @@ export const Lista = ()=>{
                     <TableRow
               key={proyecto.id}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+              style={ proyecto.id ==273 ? {backgroundColor: '#00c7ff'} : {}}
             >
-                <TableCell component="th" scope="row" align="right">
-                    {proyecto.id}
+                <TableCell component="th" scope="row" align="right" >
+                    {proyecto.id} 
                 </TableCell>
                 <TableCell align="right">{proyecto.distrito}</TableCell>
                 <TableCell align="left">{proyecto.nombre}</TableCell>
