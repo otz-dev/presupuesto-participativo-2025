@@ -1,9 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { Lista } from './proyectos-aceptados/lista-de-proyectos';
-import {ListaDeCentros} from './centro-de-votacion/lista-de-centros';
 import {ProyectoParticipativoTabs} from './pp-tabs/tabs'
-// src/pp-tabs/tabs.tsx
+
 function App() {
   return (
     <div className="App">
@@ -19,8 +17,6 @@ function App() {
           El domo nos servirá para poder patinar incluso en temporada de lluvias, unete a la causa y vota por el <strong>proyecto #273 el día 7 de Diciembre </strong>.
           Ubica tu casilla  y conoce los otros proyectos que participan para el distrito 1</p>
         </div>
-        {/* <Lista /> */}
-        {/* <ListaDeCentros /> */}
         <ProyectoParticipativoTabs/>
         
       </div>

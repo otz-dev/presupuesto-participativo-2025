@@ -3,6 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import {ListaDeCentros} from '../centro-de-votacion/lista-de-centros';
+import { Lista } from '../proyectos-aceptados/lista-de-proyectos';
 
 
 
@@ -45,7 +46,7 @@ export const ProyectoParticipativoTabs = ()=> {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        ... lista en proceso
+        <Lista />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
          <ListaDeCentros />

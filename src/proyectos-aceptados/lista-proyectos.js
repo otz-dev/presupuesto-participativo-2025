@@ -1,252 +1,164 @@
 export const proyectos = [
-    {
-        id: 1,
-        distrito: 3,
-        nombre: 'Guarniciones y banquetas de la calle Gonzalez Santa Cruz, Col. Liberación Social'
-
-    },
-    {
-        id: 3,
-        distrito: 6,
-        nombre: 'Pavimentación calle Cempual Col. La Virge'
-
-    },{
+    ,{
         id: 4,
         distrito: 1,
-        nombre: 'Guarniciones y banquetas de la calle Ecosistemas Col. Luz y Esperanza'
-
+        nombre: 'GUARNICIONES Y BANQUETA DE LA CALLE ECOSISTEMAS COL LUZ Y ESPERANZA', 
     },{
         id: 5,
         distrito: 1,
-        nombre: 'Drenaje Calle Ecosistemas Col. Luz y Esperanza'
-
-    },{
-        id: 9,
-        distrito: 5,
-        nombre: 'Guarniciones y banquetas de la calle Torreon Col. Jardines de Cancún'
-
-    },{
-        id: 10,
-        distrito: 5,
-        nombre: 'Guarniciones y banquetas de la calle Veracruz Col. Jardines de Cancún'
-
-    },{
-        id: 11,
-        distrito: 5,
-        nombre: 'Guarniciones y banquetas de la calle Mazatlán Col. Jardines de Cancún'
-
+        nombre: 'DRENAJE EN LA CALLE ECOSISTEMAS COL LUZ Y ESPERANZA', 
     },{
         id: 12,
         distrito: 1,
-        nombre: 'Semáforo en vialidad (Cruce Seguro La Cuadra)'
-
+        nombre: 'SEMAFORO EN VIALIDAD (CRUCE SEGURO "LA CUADRA")', 
     },{
-        id: 14,
-        distrito: 4,
-        nombre: 'Pavimentación de la Privada Cazarco Barrio de Tierra Blanca'
-
-    },{
-        id: 15,
-        distrito: 4,
-        nombre: 'Pavimentación de la calle Reforma Social Col. Constitución'
-    },
-    {
-        id: 16,
-        distrito: 4,
-        nombre: 'Pavimentación de la Calle Esteban Zamora Col. Juan Lira', 
-    },
-    {
         id: 21,
         distrito: 1,
-        nombre: 'Pavimentación integral de la calle C1 Col. Unidad de Guadalupe', 
-    },{
-        id: 23,
-        distrito: 5,
-        nombre: 'Rehabilitación del área verde del Fracc. Benito Juárez', 
+        nombre: 'PAVIMENTACION INTEGRAL DE LA CALLE C1 COLONIA UNIDAD DE GUADALUPE', 
     },{
         id: 26,
         distrito: 1,
-        nombre: 'Pavimentación de la Calle de La Cruz Col. Luz y Esperanza', 
+        nombre: 'PAVIMENTACIÓN DE LA CALLE DE LA CRUZ COL LUZ Y ESPERANZA', 
     },{
         id: 27,
         distrito: 1,
-        nombre: 'Pavimentación de la calle Ecosistemas Col. Luz y Esperanza', 
+        nombre: 'PAVIMENTACIÓN DE LA CALLE ECOSISTEMAS COL LUZ Y ESPERANZA', 
     },{
         id: 28,
         distrito: 1,
-        nombre: 'Coordonería y banqueta de la calle Aurora Boreal Col. Luz y Esperanza', 
-    },{
-        id: 30,
-        distrito: 3,
-        nombre: 'Barda perimetral mixta CECYTED 07 Col. Hidalgo', 
-    },{
-        id: 31,
-        distrito: 5,
-        nombre: 'Rehabilitación Asfáltica de la Calle Predio los Arroyos entre Predio los llanos y Predio el Cerro', 
-    },{
-        id: 32,
-        distrito: 5,
-        nombre: 'Rehabilitación Asfáltica de la Calle Predio los Arroyos entre Predio Pinosuarez y Predio las Mesas Fracc. Villas de San Francisco' , 
-    },{
-        id: 35,
-        distrito: 4,
-        nombre: 'Construcción de la cancha de usos múltiples CECYTED 19 Llano Grande', 
-    },{
-        id: 37,
-        distrito: 6,
-        nombre: 'Aula de usos múltiples en la escuela Prof. Jesús Rivas Quiñones', 
-    },{
-        id: 39,
-        distrito: 5,
-        nombre: 'Señalización y paso peatonal en calle Enrique Carrola Antúna', 
-    },{
-        id: 42,
-        distrito: 3,
-        nombre: 'Cancha de Futbol 7 Loc. Francisco Montes de Oca', 
-    },{
-        id: 43,
-        distrito: 4,
-        nombre: 'Cancha de pasto sintético en la escuela primaria No. 23 Gabriela Mistral', 
-    },{
-        id: 44,
-        distrito: 6,
-        nombre: 'Barda perimetral con fachada del jardín de niños María Luisa López Yañez de la Peña', 
-    },{
-        id: 47,
-        distrito: 6,
-        nombre: 'Señalización en calle 6 de Mayo', 
-    },{
-        id: 49,
-        distrito: 3,
-        nombre: 'Construcción del domo de la Loc. San José del Molino', 
-    },{
-        id: 50,
-        distrito: 2,
-        nombre: 'Rehabilitación del área verde del Fracc. Renacimiento', 
-    },{
-        id: 51,
-        distrito: 2,
-        nombre: 'Guarniciones y banquetas de la calle Tornado Fracc. Las nubes', 
-    },{
-        id: 52,
-        distrito: 2,
-        nombre: 'Guarniciones y banquetas de la calle Niebla Fracc. Las nubes',
-    },{
-        id: 54,
-        distrito: 2,
-        nombre: 'Guarniciones y banquetas de la calle Aurora Boreal Fracc. Las nubes', 
-    },{
-        id: 55,
-        distrito: 2,
-        nombre: 'Guarniciones y banquetas de la calle Eduardo Manet Fracc. Las nubes', 
-    },{
-        id: 56,
-        distrito: 4,
-        nombre: 'Rehabilitación asfáltica de la calle Pedro Moreno Col. IV Centenario', 
-    },{
-        id: 57,
-        distrito: 4,
-        nombre: 'Rehabilitación asfáltica entre de la calle Violeta Bravo y Abasolo Col. IV Centenario', 
+        nombre: 'CORDONERIA Y BANQUETA DE LA CALLE AURORA BOREAL COL LUZ Y ESPERANZA', 
     },{
         id: 59,
         distrito: 1,
-        nombre: 'Construcción de Aula de usos múltiples Jardín de niños "Papalote"', 
-    }
-    // ,{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },{
-    //     id: ,
-    //     distrito: ,
-    //     nombre: , 
-    // },
+        nombre: 'CONSTRUCCIÓN DE AULA DE USOS MULTIPLES JARDIN DE NIÑOS "PAPALOTE"', 
+    },{
+        id: 60,
+        distrito: 1,
+        nombre: 'CONSTRUCCIÓN DE DOMO ESCOLAR EN CENDI "JOSE REVUELTAS"', 
+    },{
+        id: 62,
+        distrito: 1,
+        nombre: 'CANCHA DE FUTBOL RAPIDO PARA EL PLANTEL CONALEP DURANGO 130', 
+    },{
+        id: 115,
+        distrito: 1,
+        nombre: 'REHABILITACIÓN DE JARDIN DE LA COL SILVESTRE REVUELTAS', 
+    },{
+        id: 120,
+        distrito: 1,
+        nombre: 'REHABILITACIÓN DE LA PLAZA DE LA LOC CHUPADEROS', 
+    },{
+        id: 123,
+        distrito: 1,
+        nombre: 'PLANCHA DE PATIO CIVICO DE LA ESCUELA PRIMARIA QUINCE DE MAYO', 
+    },{
+        id: 138,
+        distrito: 1,
+        nombre: 'DOMO ESCOLAR PARA EL JARDIN DE NIÑOS "SRA DIANA LAURA RIOJAS REYES"', 
+    },{
+        id: 145,
+        distrito: 1,
+        nombre: 'CONSTRUCCION DE LA CANCHA DE FUTBOL 7 UNIDAD DEPORTIVA DANIEL CORRAL NUNEZ "LA FORESTAL"', 
+    },{
+        id: 149,
+        distrito: 1,
+        nombre: 'SEÑALIZACION EN CALLE PERU', 
+    },{
+        id: 157,
+        distrito: 1,
+        nombre: 'PAVIMENTACIÓN DE LA CALLE SACRIFICIO DE LA COL ROSAS DEL TEPEYAC', 
+    },{
+        id: 158,
+        distrito: 1,
+        nombre: 'BARDA PERIMETRAL DEL TELEBACHILLERATO DE LA LOC SAN VICENTE DE CHUPADEROS', 
+    },{
+        id: 179,
+        distrito: 1,
+        nombre: 'CANCHA DE FUTBOL RAPIDO EN LA ESCUELA SECUNDARIA "JAIME TORRES BODET"', 
+    },{
+        id: 225,
+        distrito: 1,
+        nombre: 'CANCHA DE FUTBOL ESCUELA PRIMARIA EVA SAMANO DE LOPEZ MATEOS', 
+    },{
+        id: 228,
+        distrito: 1,
+        nombre: 'SENALIZACION EN CALLE REPUBLICA DE ARGENTINA', 
+    },{
+        id: 229,
+        distrito: 1,
+        nombre: 'REHABLITACIÓN DEL GIMNASIO AUDITORIO "LA FORESTAL" COBAED PLANTTEL 01', 
+    },{
+        id: 232,
+        distrito: 1,
+        nombre: 'REHABILITACIÓN DEL CAMPO DE BEISBOL DE LA UNIDAD DEPORTIVA JOSÉ REVUELTAS', 
+    },{
+        id: 257,
+        distrito: 1,
+        nombre: 'POSTE DE LUZ EN CALLE DEL ALBA COLONIA LUZ Y ESPERANZA', 
+    },
+    {
+        id: 271,
+        distrito: 1,
+        nombre: 'BARDA PERIMETRAL EN EL JARDIN DE NINOS ANNA FREUD', 
+    },{
+        id: 273,
+        distrito: 1,
+        nombre: 'RECUPERACION INTEGRAL (CONSTRUCCIÓN DE DOMO) DE SKATEPARK 360', 
+    },{
+        id: 333,
+        distrito: 1,
+        nombre: 'CONSTRUCCION DE CANCHA FUTBOL PRIMARIA DRA MARGARITA GOMEZ PALACIO', 
+    },{
+        id: 385,
+        distrito: 1,
+        nombre: 'REHABILITACION DE LA CANCHA FRACC SAN JUAN', 
+    },{
+        id: 392,
+        distrito: 1,
+        nombre: 'DOMO EN LA UNIDAD DEPORTIVA DE LA CUADRA DE FERROCARRIL', 
+    },{
+        id: 434,
+        distrito: 1,
+        nombre: 'TRABAJOS DE REHABILITACION DEL JARDIN DE NIÑOS MARTIN GONZALEZ VAZQUEZ', 
+    },{
+        id: 436,
+        distrito: 1,
+        nombre: 'REHABILITACION DEL AREA VERDE FRACC PASO REAL II', 
+    },{
+        id: 437,
+        distrito: 1,
+        nombre: 'REHABILITACION ASFALTICA DE LA CALLE CAMINO DE LOS GENERALES FRACC PASO REAL', 
+    },{
+        id: 468,
+        distrito: 1,
+        nombre: 'REHABILITACION DE PASTO SINTETICO DE LA CANCHA MULTIDEPORTIVO CARLOS LUNA', 
+    },{
+        id: 473,
+        distrito: 1,
+        nombre: 'REHABILITACION DE LA UNIDAD DEPORTIVA ACEREROS', 
+    },{
+        id: 475,
+        distrito: 1,
+        nombre: 'REHABILITACION DE PISOS Y BANQUETAS DEL JARDIN DE NINOS ANTONIO GAXIOLA', 
+    },{
+        id: 494,
+        distrito: 1,
+        nombre: 'CONSTRUCCION DE GUARNICIONES Y BANQUETAS COL PRI', 
+    },{
+        id: 444,
+        distrito: 1,
+        nombre: 'REMODELACIÓN DE LA PLAZA "LA TINAJA"', 
+    },{
+        id: 520,
+        distrito: 1,
+        nombre: 'SEÑALIZACION EN CALLE LOS CIPRESES', 
+    },{
+        id: 522,
+        distrito: 1,
+        nombre: 'PAVIMENTACION CALLE TOMAS URBINA COL FRANCISCO ZARCO', 
+    },{
+        id: 528,
+        distrito: 1,
+        nombre: 'SENALAMIENTO EN CALLE DOROTEO ARANGO', 
+    },
 ]
