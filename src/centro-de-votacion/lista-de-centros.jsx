@@ -15,7 +15,7 @@ import Select from '@mui/material/Select';
 
 export const ListaDeCentros = ()=>{
 
-   const [distrito, setDistrito] = React.useState(undefined);
+   const [distrito, setDistrito] = React.useState('TODAS');
 
   const handleChange = (event) => {
     setDistrito(event.target.value);
@@ -33,7 +33,7 @@ export const ListaDeCentros = ()=>{
           label="Distrito"
           onChange={handleChange}
         >
-          <MenuItem value={undefined}>Todas</MenuItem>
+          <MenuItem value={'TODAS'}>Todas</MenuItem>
           <MenuItem value={1}>1</MenuItem>
           <MenuItem value={2}>2</MenuItem>
           <MenuItem value={3}>3</MenuItem>
@@ -49,23 +49,23 @@ export const ListaDeCentros = ()=>{
         <Table aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell align="left">Casilla</TableCell>
-            {/* <TableCell align="left">Distrito</TableCell> */}
-            <TableCell align="left">Plantel</TableCell>
-            <TableCell align="left">Ubicación</TableCell>
+            <TableCell align="left" style={{fontWeight: 'bold'}}>Casilla</TableCell>
+            {!distrito && <TableCell align="left" style={{fontWeight: 'bold'}}>Distrito</TableCell>}
+            <TableCell align="left" style={{fontWeight: 'bold'}}>Plantel</TableCell>
+            <TableCell align="left" style={{fontWeight: 'bold'}}>Ubicación</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
             {
                 centros.map((centro)=>(
-                    ((centro?.distrito === distrito) || !distrito) && <TableRow
+                    ((centro?.distrito === distrito) || distrito === 'TODAS') && <TableRow
               key={centro.casilla}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
                 <TableCell component="th" scope="row" align="left">
                     {centro.casilla}
                 </TableCell>
-                {/* <TableCell align="left">{centro.distrito}</TableCell> */}
+                {!distrito && <TableCell align="left">{centro.distrito}</TableCell>}
                 <TableCell align="left">{centro.plantel}</TableCell>
                 <TableCell align="left">{centro.direccion}</TableCell>
             </TableRow>

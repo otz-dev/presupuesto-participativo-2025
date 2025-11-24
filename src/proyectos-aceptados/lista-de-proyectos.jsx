@@ -14,9 +14,9 @@ export const Lista = ()=>{
         <Table aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell align="right">Folio</TableCell>
-            <TableCell align="right">Distrito</TableCell>
-            <TableCell align="left">Nombre del Proyecto</TableCell>
+            <TableCell align="right" style={{fontWeight: 'bold'}}>Folio</TableCell>
+            {/* <TableCell align="right">Distrito</TableCell> */}
+            <TableCell align="left" style={{fontWeight: 'bold'}}>Nombre del Proyecto</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -30,7 +30,7 @@ export const Lista = ()=>{
                 <TableCell component="th" scope="row" align="right" >
                     {proyecto.id} 
                 </TableCell>
-                <TableCell align="right">{proyecto.distrito}</TableCell>
+                {/* <TableCell align="right">{proyecto.distrito}</TableCell> */}
                 <TableCell align="left">{proyecto.nombre}</TableCell>
             </TableRow>
                 ))
