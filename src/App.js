@@ -14,8 +14,8 @@ function App() {
         <div style={{
           textAlign: 'center'
         }}>
-          <p>Hola! el Skatepark 360 está participando el el <strong>Proyecto participativo 250</strong>. Estamos solicitando la <strong>instalación de un Domo </strong> en una de las pistas del skate
-          El domo nos servirá para poder patinar incluso en temporada de lluvias, unete a la causa y vota por el <strong>proyecto #273 el día 7 de Diciembre </strong>
+          <p>Hola! el Skatepark 360 está participando en el <strong>Presupuesto Participativo 2025</strong>. Estamos solicitando la <strong>instalación de un Domo </strong> en una de las pistas del skate.
+          El domo nos servirá para poder patinar incluso en temporada de lluvias, unete a la causa y vota por el <strong>proyecto #273 el día 7 de Diciembre </strong>.
           Ubica tu casilla  y conoce los otros proyectos que participan para el distrito 1</p>
         </div>
         {/* <Lista /> */}
