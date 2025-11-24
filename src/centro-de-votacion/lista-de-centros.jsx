@@ -50,7 +50,7 @@ export const ListaDeCentros = ()=>{
         <TableHead>
           <TableRow>
             <TableCell align="left">Casilla</TableCell>
-            <TableCell align="left">Distrito</TableCell>
+            {/* <TableCell align="left">Distrito</TableCell> */}
             <TableCell align="left">Plantel</TableCell>
             <TableCell align="left">Ubicación</TableCell>
           </TableRow>
@@ -65,7 +65,7 @@ export const ListaDeCentros = ()=>{
                 <TableCell component="th" scope="row" align="left">
                     {centro.casilla}
                 </TableCell>
-                <TableCell align="left">{centro.distrito}</TableCell>
+                {/* <TableCell align="left">{centro.distrito}</TableCell> */}
                 <TableCell align="left">{centro.plantel}</TableCell>
                 <TableCell align="left">{centro.direccion}</TableCell>
             </TableRow>

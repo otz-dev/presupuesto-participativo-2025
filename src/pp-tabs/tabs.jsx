@@ -41,8 +41,8 @@ export const ProyectoParticipativoTabs = ()=> {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Lista de Proyectos (Distrito 1)" {...a11yProps(0)} />
-          <Tab label="Lista de Casillas por Distrito" {...a11yProps(1)} />
+          <Tab label="Lista de Proyectos (Distrito 1)" {...a11yProps(0)} style={{fontWeight: 'bold'}}/>
+          <Tab label="Lista de Casillas por Distrito" {...a11yProps(1)} style={{fontWeight: 'bold'}}/>
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>

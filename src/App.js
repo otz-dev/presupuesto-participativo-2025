@@ -17,6 +17,10 @@ function App() {
           El domo nos servirá para poder patinar incluso en temporada de lluvias, unete a la causa y vota por el <strong>proyecto #273 el día 7 de Diciembre </strong>.
           Ubica tu casilla  y conoce los otros proyectos que participan para el distrito 1</p>
         </div>
+
+        <div>
+          <img src='skater2.png' style={{width: '50%', height: '50%' }}/>
+        </div>
         <ProyectoParticipativoTabs/>
         
       </div>
