@@ -14,7 +14,7 @@ function App() {
           margin: '3%'
         }}>
           <p>El Skatepark 360 está participando en el programa "Presupuesto Participativo 2025". Estamos solicitando la <strong>instalación de un Domo</strong>, unete a la causa y vota por el <strong>proyecto #273 </strong> el día <strong>7 de Diciembre</strong>.
-          Ubica tu casilla  y conoce los otros proyectos que participan para el distrito 1</p>
+          Ubica tu casilla  y conoce los otros proyectos que participan para el <strong>distrito 1</strong>.</p>
         </div>
 
         <div >
