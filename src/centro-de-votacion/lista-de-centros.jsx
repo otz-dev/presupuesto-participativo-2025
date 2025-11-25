@@ -33,14 +33,14 @@ export const ListaDeCentros = ()=>{
           label="Distrito"
           onChange={handleChange}
         >
-          <MenuItem value={'TODAS'}>Todas</MenuItem>
-          <MenuItem value={1}>1</MenuItem>
-          <MenuItem value={2}>2</MenuItem>
-          <MenuItem value={3}>3</MenuItem>
-          <MenuItem value={4}>4</MenuItem>
-          <MenuItem value={5}>5</MenuItem>
-          <MenuItem value={6}>6</MenuItem>
-        <MenuItem value={'ESPECIAL'}>Especial</MenuItem>
+          <MenuItem value={'TODAS'}><strong>Todas</strong></MenuItem>
+          <MenuItem value={1}><strong>1</strong></MenuItem>
+          <MenuItem value={2}><strong>2</strong></MenuItem>
+          <MenuItem value={3}><strong>3</strong></MenuItem>
+          <MenuItem value={4}><strong>4</strong></MenuItem>
+          <MenuItem value={5}><strong>5</strong></MenuItem>
+          <MenuItem value={6}><strong>6</strong></MenuItem>
+        <MenuItem value={'ESPECIAL'}><strong>Especial</strong></MenuItem>
         </Select>
       </FormControl>
     </Box>
