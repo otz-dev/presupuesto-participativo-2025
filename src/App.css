@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.skater2{
+  width: 50%;
+  height: 50%;
+  animation: skater2Animation 10s;
+}
+
+@keyframes skater2Animation {
+  rom{
+     transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}

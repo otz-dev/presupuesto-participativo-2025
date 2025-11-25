@@ -28,7 +28,7 @@ export const Lista = ()=>{
               style={ proyecto.id ==273 ? {backgroundColor: '#00c7ff'} : {}}
             >
                 <TableCell component="th" scope="row" align="right" >
-                    {proyecto.id} 
+                    <strong>{proyecto.id}</strong>
                 </TableCell>
                 {/* <TableCell align="right">{proyecto.distrito}</TableCell> */}
                 <TableCell align="left">{proyecto.nombre}</TableCell>

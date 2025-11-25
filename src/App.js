@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {ProyectoParticipativoTabs} from './pp-tabs/tabs'
 
@@ -11,15 +10,15 @@ function App() {
       <div>
         <h1>Presupuesto participativo</h1>
         <div style={{
-          textAlign: 'center'
+          textAlign: 'justify',
+          margin: '3%'
         }}>
-          <p>Hola! el Skatepark 360 está participando en el <strong>Presupuesto Participativo 2025</strong>. Estamos solicitando la <strong>instalación de un Domo </strong> en una de las pistas del skate.
-          El domo nos servirá para poder patinar incluso en temporada de lluvias, unete a la causa y vota por el <strong>proyecto #273 el día 7 de Diciembre </strong>.
+          <p>El Skatepark 360 está participando en el programa "Presupuesto Participativo 2025". Estamos solicitando la <strong>instalación de un Domo</strong>, unete a la causa y vota por el <strong>proyecto #273 </strong> el día <strong>7 de Diciembre</strong>.
           Ubica tu casilla  y conoce los otros proyectos que participan para el distrito 1</p>
         </div>
 
-        <div>
-          <img src='skater2.png' style={{width: '50%', height: '50%' }}/>
+        <div >
+          <img src='skater2.png' className='skater2'/>
         </div>
         <ProyectoParticipativoTabs/>
         

@@ -49,9 +49,8 @@ export const ListaDeCentros = ()=>{
         <Table aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell align="left" style={{fontWeight: 'bold'}}>Casilla</TableCell>
-            {!distrito && <TableCell align="left" style={{fontWeight: 'bold'}}>Distrito</TableCell>}
-            <TableCell align="left" style={{fontWeight: 'bold'}}>Plantel</TableCell>
+            {distrito === 'TODAS' && <TableCell align="left" style={{fontWeight: 'bold'}}>Distrito</TableCell>}
+            {<TableCell align="left" style={{fontWeight: 'bold'}}>Plantel</TableCell>}
             <TableCell align="left" style={{fontWeight: 'bold'}}>Ubicación</TableCell>
           </TableRow>
         </TableHead>
@@ -62,10 +61,7 @@ export const ListaDeCentros = ()=>{
               key={centro.casilla}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
-                <TableCell component="th" scope="row" align="left">
-                    {centro.casilla}
-                </TableCell>
-                {!distrito && <TableCell align="left">{centro.distrito}</TableCell>}
+                {distrito === 'TODAS' && <TableCell align="left">{centro.distrito}</TableCell>}
                 <TableCell align="left">{centro.plantel}</TableCell>
                 <TableCell align="left">{centro.direccion}</TableCell>
             </TableRow>
